@@ -11,6 +11,6 @@ $nomes2 = array(
   array("nome"=>"Miguel", "idade"=>1)
 );
   foreach ($nomes2 as $aluno) {
-    echo "Aluno: ".$aluno["nome"]." - Idade: ".$aluno;
+    echo "Aluno: ".$aluno["nome"]." - Idade: ".$aluno["idade"]."<br>";
   }
 ?>
