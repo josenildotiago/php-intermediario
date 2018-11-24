@@ -13,4 +13,14 @@ $nomes2 = array(
   foreach ($nomes2 as $aluno) {
     echo "Aluno: ".$aluno["nome"]." - Idade: ".$aluno["idade"]."<br>";
   }
+//Exemplo 3
+  $nomes3 = array(
+    "nome"=>"Lucas",
+    "idade"=>90,
+    "estado"=>"RN",
+    "país"=>"Brasil"
+  );
+  foreach ($nomes3 as $chave => $dados) {
+    echo $chave." = ".$dados."<br>";
+}
 ?>
