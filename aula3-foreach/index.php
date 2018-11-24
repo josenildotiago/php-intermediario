@@ -1,3 +1,5 @@
+
+
 <?php header("Content-type: text/html; charset=utf-8"); ?>
 <?php
 $nomes = array("Lucas","Matheus","Miguel","Mariana");
@@ -21,6 +23,6 @@ $nomes2 = array(
     "país"=>"Brasil"
   );
   foreach ($nomes3 as $chave => $dados) {
-    echo $chave." = ".$dados."<br>";
+    echo $chave." = ".$dados."<br/>";
 }
 ?>
